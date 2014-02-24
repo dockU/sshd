@@ -1,4 +1,4 @@
-sshd
-====
+# sshd
 
-ssh jumpbox
+ssh gateway image.
+
