@@ -1,0 +1,4 @@
+#!/bin/sh
+
+exec /usr/sbin/sshd -D -f /root/sshd_config 2>&1
+
