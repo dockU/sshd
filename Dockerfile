@@ -11,5 +11,5 @@ ADD run /etc/sv/sshd/run
 
 EXPOSE 22
 
-RUN ln -s /etc/sv/umurmur /service/
+RUN ln -s /etc/sv/sshd /service/
 
