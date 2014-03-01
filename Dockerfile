@@ -4,7 +4,7 @@ MAINTAINER Jon Chen "docku@burrito.sh"
 ADD start.sh /root/start.sh
 ADD sshd_config /root/sshd_config
 
-RUN /usr/bin/pacman -Sy --noconfirm --needed openssh openbsd-netcat
+RUN /usr/bin/apt-get install -y openssh-server netcat-openbsd
 RUN /usr/bin/mkdir -p /var/run/sshd
 
 ADD run /etc/sv/sshd/run
