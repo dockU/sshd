@@ -13,7 +13,7 @@ PermitRootLogin yes
 StrictModes yes
 RSAAuthentication yes
 PubkeyAuthentication yes
-AuthorizedKeysFile  /srv/sshd/authorized_keys
+AuthorizedKeysFile /srv/sshd/authorized_keys
 IgnoreRhosts yes
 RhostsRSAAuthentication no
 HostbasedAuthentication no
@@ -26,7 +26,6 @@ PrintMotd no
 PrintLastLog yes
 TCPKeepAlive yes
 AcceptEnv LANG LC_*
-UsePAM yes
 ClientAliveInterval 120
 ClientAliveCountMax 20
 MaxSessions 200
