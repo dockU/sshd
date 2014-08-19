@@ -22,7 +22,7 @@ X11DisplayOffset 10
 PrintMotd no
 PrintLastLog yes
 TCPKeepAlive yes
-ClientAliveInterval 120
+ClientAliveInterval 86400
 ClientAliveCountMax 20
 MaxSessions 200
 UseDNS no
