@@ -1,5 +1,5 @@
-FROM dock0/service
-MAINTAINER Jon Chen "docku@burrito.sh"
+FROM docku/rsyslogd
+MAINTAINER Jon Chen <docku@burrito.sh>
 
 EXPOSE 22
 
